@@ -87,7 +87,7 @@ client.newWebSocketAsync(request).collectLatest {}
 ```
 But IMO, it would be long shot if we want to peform on, off, send, connect and other events
 
-####To conclude
+#### To conclude
 - Socket.io is pretty straightforward and developer friendly IMHO
 - Ktor web socket is just yet another option.
 - OkHttp is just yet core library, but you need to tweak yourself to fit your requirements.
